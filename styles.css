@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 4px 0px;
+}
+p i{
+    margin-right: 6px;
+}
+.main-resume {
+    width: 850px;
+    height: 800px;
+    /* background-color: grey; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 10px solid violet; */
+}
+
+.main-resume .left {
+    width: 270px;
+    background-color: grey;
+    padding: 20px;
+    height: 700px;
+}
+.main-resume .right {
+    width: 490px;
+    /* background-color: red; */
+    padding: 20px; 
+    height: 800px;
+}
+.rinfo
+{
+    border-top: 2px solid black;
+    padding: 6px 0px;
+}
+.skills ul
+{
+  padding:0px 15px;
+}
+.right .rinfo
+{
+    border-top: 2px solid black;
+    padding: 6px 0px;
+}
+.Experience
+{
+    display: flex;
+     justify-content: space-around;
+}
+.insider
+{
+    padding: 20px;
+}
+.h-primary
+{
+    font-size: 18px;
+    color:blue
+}
